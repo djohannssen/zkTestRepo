@@ -1,0 +1,7 @@
+<?page title="Auto Generated index.zul"?>
+<window title="Hello World!!" border="normal" width="200px">
+
+<label value="You are using: ${desktop.webApp.version}"/><separator />
+<a href="test.zul">Test POJO</a><separator />
+<a href="controllerTest.zul">Controller-Test</a>
+</window>

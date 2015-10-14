@@ -1,0 +1,22 @@
+<?page title="new page title" contentType="text/html;charset=UTF-8"?>
+<zk>
+	<window title="First User List" border="normal">
+		<?variable-resolver class="business.UserResolver"?>
+			<grid>
+			    <columns>
+			        <column label="Name" sort="auto"/>
+			        <column label="Title" sort="auto"/>
+			        <column label="Age" sort="auto"/>
+			    </columns>
+			    <rows>
+			        <row forEach="${users}">
+			            <label value="${each.name}"/>
+			            <label value="${each.title}"/>
+			            <label value="${each.age}"/>
+			        </row>
+			    </rows>
+			</grid>
+		<separator />
+		<a href="index.zul">Index</a>
+	</window>
+</zk>

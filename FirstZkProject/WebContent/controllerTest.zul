@@ -1,0 +1,18 @@
+<?page title="new page title" contentType="text/html;charset=UTF-8"?>
+<zk>
+	<window title="new page title" border="normal"
+		apply="controller.Controller">
+		<div>
+			Input:
+			<textbox id="input" value="Initial Input"/>
+		</div>
+		<div>
+			Output:
+			<label id="output" />
+		</div>
+		<button id="ok" label="Submit" />
+		<button id="cancel" label="Clear" /><separator/>
+		<a href="index.zul">Index</a>
+
+	</window>
+</zk>
